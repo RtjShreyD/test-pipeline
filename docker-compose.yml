@@ -4,7 +4,7 @@ services:
   app:
     build:
       context: .
-      dockerfile: DockerFile
+      dockerfile: Dockerfile
     container_name: ment-activity
     ports:
       - "5000:5000"
