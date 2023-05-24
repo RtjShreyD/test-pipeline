@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 sh '''
-                  docker version
+                  docker --version
                   docker compose version
                  '''
             }
