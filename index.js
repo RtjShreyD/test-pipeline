@@ -178,5 +178,5 @@ app.post('/save-article', async (req, res) => {
 const port = 5000;
 app.listen(process.env.PORT || port, () => {
     console.log(`Server is running on port: ${port}`);
-    console.loh(1);
+    console.log(1);
 });
